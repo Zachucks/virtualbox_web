@@ -2,5 +2,6 @@
  Update v1.210203:
  <ul>
  	<li>Created github repo</li>
- 	<li>Created database and user table</li>
+ 	<li>Added libraries</li>
+ 	<li>Created base required files</li>
  </ul>
