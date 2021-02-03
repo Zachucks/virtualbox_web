@@ -1,3 +1,19 @@
 .main_content {
 	padding: 15px;
 }
+
+.login_div {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%);
+	width: 350px;
+	max-width: 350px;
+	padding: 35px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+.login_control {
+	margin-bottom: 15px;
+}
