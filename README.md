@@ -11,21 +11,17 @@
  </ul>
 
 # Setup
+ Run the `sql_setup.php` file via command line:<br>
+ `php sql_setup.php`
  <p>
- 	Run the `sql_setup.php` file via command line:<br>
- 	`php sql_setup.php`
- </p>
-
- <p>
-	You will be required to create a `dbc.php` file with the following contents:
-	```
-		<?php
-			//Create database connection
-			//Replace username and password with yours
-			$conn = mysqli_connect("127.0.0.1", "username", "password", "vms");
-		?>
-	```
- </p>
+ You will be required to create a `dbc.php` file with the following contents:
+ ```
+ <?php
+ 	//Create database connection
+ 	//Replace username and password with yours
+ 	$conn = mysqli_connect("127.0.0.1", "username", "password", "vms");
+ ?>
+ ```
 
 # Planned
  <ul>
