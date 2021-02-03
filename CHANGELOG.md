@@ -4,4 +4,5 @@
  	<li>Created github repo</li>
  	<li>Added libraries</li>
  	<li>Created base required files</li>
+ 	<li>Updated header, footer, scripts.php, styles.php</li>
  </ul>
