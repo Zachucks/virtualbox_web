@@ -10,6 +10,23 @@
  	<li>LAMP Stack (you can use <a href="https://github.com/Zachucks/linux_setup">this</a> script to install the LAMP stack, I built this application using it, and I built the script too [:)] )</li>
  </ul>
 
+# Setup
+ <p>
+ 	Run the `sql_setup.php` file via command line:<br>
+ 	`php sql_setup.php`
+ </p>
+
+ <p>
+	You will be required to create a `dbc.php` file with the following contents:
+	```
+		<?php
+			//Create database connection
+			//Replace username and password with yours
+			$conn = mysqli_connect("127.0.0.1", "username", "password", "vms");
+		?>
+	```
+ </p>
+
 # Planned
  <ul>
  	<li>Multi-user interface</li>
