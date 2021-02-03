@@ -30,3 +30,10 @@
  	<li>Service detection against vms with nmap</li>
  	<li>Ability to manage vms (shutdown, start, create, modify, remove)</li>
  </ul>
+
+# Credits
+ <ul>
+ 	<li>JQuery from <a href="https://jquery.com/" target="_blank">JQuery.com</a></li>
+ 	<li>Bootstrap JS (`bootstrap.bundle.js` & `bootstrap.bundle.js.map`) from <a href="https://getbootstrap.com/docs/4.1/getting-started/download/" target="_blank">getbootstrap.com</a></li>
+ 	<li>Bootstrap CSS (`bootstrap.css` slate template) from <a href="https://bootswatch.com/" target="_blank">Bootswatch.com</a></li>
+ </ul>
