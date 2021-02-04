@@ -17,3 +17,23 @@
 .login_control {
 	margin-bottom: 15px;
 }
+
+.icon_add {
+	color: #02b875;
+}
+
+.icon_edit {
+	color: #f0ad4e;
+}
+
+.icon_remove {
+	color: #d9534f;
+}
+
+.content_center {
+	text-align: center;
+}
+
+a {
+	cursor: pointer;
+}

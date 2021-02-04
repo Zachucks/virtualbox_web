@@ -17,7 +17,7 @@
         if ($currFile == "index") { echo "<li class='nav-item active'>"; }
         //Echo out inactive link if it is not
         else { echo "<li class='nav-item'>"; }
-        echo "<a class='nav-link' href='index.php'>Dashboard</a>";
+        echo "<a class='nav-link fas fa-tachometer-alt content_center' href='index.php'><br>Dashboard</a>";
         echo "</li>";
 
         //Echo out virtual machines link
@@ -25,7 +25,7 @@
         if ($currFile == "virtual_machines") { echo "<li class='nav-item active'>"; }
         //Echo out inactive link if it is not
         else { echo "<li class='nav-item'>"; }
-        echo "<a class='nav-link' href='#'>Virtal Machines</a>";
+        echo "<a class='nav-link fas fa-hdd content_center' href='#'><br>Virtual Machines</a>";
         echo "</li>";
 
         //Echo out service list link
@@ -33,7 +33,7 @@
         if ($currFile == "service_list") { echo "<li class='nav-item active'>"; }
         //Echo out inactive link if it is not
         else { echo "<li class='nav-item'>"; }
-        echo "<a class='nav-link' href='#'>Service List</a>";
+        echo "<a class='nav-link fas fa-concierge-bell content_center' href='#'><br>Services</a>";
         echo "</li>";
 
         //Check if user has permissions to view account manager link
@@ -43,7 +43,7 @@
           if ($currFile == "account_manager") { echo "<li class='nav-item active'>"; }
           //Echo out inactive link if it is not
           else { echo "<li class='nav-item'>"; }
-          echo "<a class='nav-link' href='user_manager.php'>Account Manager</a>";
+          echo "<a class='nav-link fas fa-users content_center' href='user_manager.php'><br>Accounts</a>";
           echo "</li>";
         }
 
@@ -52,12 +52,12 @@
         if ($currFile == "about") { echo "<li class='nav-item active'>"; }
         //Echo out inactive link if it is not
         else { echo "<li class='nav-item'>"; }
-        echo "<a class='nav-link' href='#'>About</a>";
+        echo "<a class='nav-link fas fa-info-circle content_center' href='#'><br>About</a>";
         echo "</li>";
       ?>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <a class="btn btn-warning" href="users.php?logout=1">Logout</a>
+      <a class="fas fa-sign-out-alt" style="color: #f0ad4e" href="users.php?logout=1"> Logout</a>
     </form>
   </div>
 </nav>
