@@ -20,6 +20,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-warning" href="users.php?logout=1">Logout</a>&nbsp&nbsp
       <input class="form-control mr-sm-2" type="text" placeholder="Search">
       <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
     </form>
