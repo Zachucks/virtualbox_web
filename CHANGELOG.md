@@ -4,7 +4,7 @@
  	<li>Added login functionality</li>
  	<li>Added logout functionality</li>
  </ul>
- --
+ -
  Update v1.210203:
  <ul>
  	<li>Created github repo</li>
