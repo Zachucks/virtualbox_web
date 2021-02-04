@@ -12,6 +12,8 @@
 	}
 
 	//Header
+	//Set current file to index
+	$currFile = "index";
 	include_once 'header.php';
 	//Nav bar
 	include_once 'nav.php';

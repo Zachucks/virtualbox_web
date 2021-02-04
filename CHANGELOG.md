@@ -3,6 +3,7 @@
  <ul>
  	<li>Added login functionality</li>
  	<li>Added logout functionality</li>
+ 	<li>Added account manager for accounts with an account level of 100</li>
  </ul>
 
  Update v1.210203:
