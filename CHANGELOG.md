@@ -1,4 +1,9 @@
 # Project Changelog
+ Update v1.210205:
+ <ul>
+ 	<li>Added dynamic fetching of modal forms</li>
+ </ul>
+
  Update v1.210204:
  <ul>
  	<li>Added login functionality</li>
