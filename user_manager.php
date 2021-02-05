@@ -34,7 +34,7 @@
 	echo "<span aria-hidden='true'>&times;</span>";
 	echo "</button>";
 	echo "</div>";
-	echo "<div class='modal-body' id='modalContent'>";
+	echo "<div class='modal-body' id='modal_content'>";
 	echo "</div>";
 	echo "</div>";
 	echo "</div>";
@@ -45,7 +45,7 @@
 	//And a heading for the page
 	echo "<h1 class='text-primary'>Account Management</h1>";
 	//Echo out a new account button
-	echo "<a class='fas fa-user-plus icon_add' onClick='showHideModal(\"newAccount\",1)'> Create Account</a><p><p>";
+	echo "<a class='fas fa-user-plus icon_add' onClick='showHideModal(\"create_account\",1)'> Create Account</a><p><p>";
 	//Include the database connection
 	include_once 'dbc.php';
 	//Query the database for a list of users
@@ -88,8 +88,8 @@
 			$email = $user['email'];
 			$account_level = $user['account_level'];
 			//Create the buttons for modify and remove
-			$modifyBtn = "<a class='fas fa-user-edit icon_edit' onClick='modifyAccount(${user_id})'> Modify</a>";
-			$removeBtn = "<a class='fas fa-user-times icon_remove' onClick='removeAccount(${user_id})'> Remove</a>";
+			$modifyBtn = "<a class='fas fa-user-edit icon_edit' onClick='showHideModal(\"modify_account\",1,${user_id})'> Modify</a>";
+			$removeBtn = "<a class='fas fa-user-times icon_remove' onClick='showHideModal(\"remove_account\",1,${user_id})'> Remove</a>";
 			//Echo out the row
 			echo "<tr ${rowStyle}><td>${user_id}</td><td>${username}</td><td>${name}</td><td>${email}</td><td>${account_level}</td><td class='content_center'>${modifyBtn}</td><td class='content_center'>${removeBtn}</td></tr>";
 		}

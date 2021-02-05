@@ -33,11 +33,22 @@ function ajaxCall(event, formID, outputDiv, phpPage) {
 }
 
 //Show/hide modal function
-function showHideModal(modalID, mode) {
+function showHideModal(formID, mode, user_id="") {
     //Use JQuery to show/hide modal
     $(`#modal`).css("display", mode == 0 ? "none" : "inline-block");
     //Check if mode is not 0
     if (mode != 0) {
-        //
+        //Set user section of the uri to a blank string by default
+        var user_section = "";
+        //Check if the user ID has been provided
+        if (user_id != "") {
+            //Set user section of the uri to provide the user ID
+            user_section = `&userID=${user_id}`;
+        }
+        //Perform a JQuery get request to get the form for the modal
+        $.get(`modal.php?formType=${formID}${user_section}`, function(data) {
+            //Set the modal content to the html of the returned data
+            $("#modal_content").html(data);
+        });
     }
 }
